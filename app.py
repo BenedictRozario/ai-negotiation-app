@@ -13,7 +13,7 @@ if not openai_api_key:
 client = openai.OpenAI(api_key=openai_api_key)
 
 st.set_page_config(layout="wide")
-st.markdown("## 🤝 AI Negotiation Co-Pilot")
+st.markdown("## 🤝 Buyer / Procurement Support Agent")
 
 # Custom CSS for chat alignment and price display
 st.markdown("""
@@ -258,7 +258,7 @@ col1, col2, col3 = st.columns([1, 1.6, 1])
 
 # ---- LEFT PANEL: Inputs ----
 with col1:
-    st.markdown("### 📊 Market Insights Panel")
+    st.markdown("### 📊 Vendor & Product Details")
     st.markdown("*Complete all selections to start negotiation*")
 
     # Add reset button at the top
@@ -333,7 +333,7 @@ with col1:
     include_competitors = st.checkbox("⚖️ Competitor Comparison", value=True)
 
     generate_button = st.button(
-        "🚀 Generate Market Insights & Start Negotiation", 
+        "🚀 Generate Insights", 
         disabled=not selections_complete,
         type="primary"
     )
