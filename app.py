@@ -93,7 +93,22 @@ BRAND_PRODUCTS = {
         "Tea" : 3,
         "Personal Care": 2,
         "Household Products": 2.50
-        }
+        },
+    "Danone": {
+        "Activa Youghurt": 2.98,
+        "Alpro Barista": 4.75,
+        "Danone Water": 39.70
+    },
+    "Black & Decker": {
+        "Cordless Handheld Vacuum": 54.99,
+        "Steam Mops 365": 99,
+        "PowerConnect Batteries": 56.99
+    },
+    "Newell Brands": {
+        "Rubbermaid Kitchen Containers": 38.36,
+        "Scented Candles": 16.88,
+        "Sharpie Marker packs": 10
+    }
 }
 
 # Initialize session state variables
