@@ -66,20 +66,6 @@ st.markdown("""
 
 # Define brand and product mapping with sample prices
 BRAND_PRODUCTS = {
-    # "Dell": {
-    #     "Laptop": 1200,
-    #     "Desktop": 900,
-    #     "Server": 3500,
-    #     "Monitor": 300,
-    #     "Accessories": 50
-    # },
-    # "HP": {
-    #     "Laptop": 1100,
-    #     "Printer": 400,
-    #     "Desktop": 850,
-    #     "Scanner": 250,
-    #     "Ink Cartridges": 80
-    # },
     "Apple": {
         "MacBook": 1500,
         "iMac": 1800,
